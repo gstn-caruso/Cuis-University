@@ -1,0 +1,12 @@
+language: minimal
+
+git:
+  depth: 1
+
+os:
+  - linux
+  
+before_install:
+  - ./pullDependencies.sh
+  - ./buildCuisInstallerBuilderImage.sh
+  
